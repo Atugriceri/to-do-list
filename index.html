@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Files Start -->
+    <link rel="stylesheet" href="css/custom/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS Files End -->
+    <title>To Do List</title>
+</head>
+<body class="bg-dark">
+
+    <!-- Alert Start -->
+    <div id="alert-DOM">
+        
+    </div>
+    <!-- Alert End -->
+
+    <!-- Section Start -->
+    <section class="container mt-5">
+        <div class="row">
+            <article class="col-md-8 offset-md-2">
+                <form id="to-do-form">
+                    <div class="row mb-3">
+                        <div class="col-sm-11">
+                            <input name="to-do" id="to-do-input" type="text" class="form-control" placeholder="Add a new to do">
+                        </div>
+                        <div class="col-sm-1">
+                            <button class="btn btn-primary add-btn" type="submit">Add</button>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-11">
+                            <ul class="list-group" id="to-do-list">
+
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </section>
+    <!-- Section End -->
+    
+    <!-- Script Files Start -->
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Script Files End -->
+</body>
+</html>
